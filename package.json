@@ -1,6 +1,6 @@
 {
   "name": "react-responsive-sidebar-menu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple responsive sidebar for ReactJS",
   "main": "lib/index.js",
   "module": "es/index.js",
