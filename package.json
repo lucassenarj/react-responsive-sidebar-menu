@@ -18,14 +18,22 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "release": "semantic-release --no-ci"
+    "release": "semantic-release --no-ci",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
+    "@storybook/addon-actions": "^6.4.0",
+    "@storybook/addon-essentials": "^6.4.0",
+    "@storybook/addon-links": "^6.4.0",
+    "@storybook/react": "^6.4.0",
+    "babel-loader": "^8.2.3",
     "nwb": "0.25.x",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -42,5 +50,6 @@
     "react-responsive-sidebar",
     "react-responsive-sidebar-menu",
     "react-menu"
-  ]
+  ],
+  "dependencies": {}
 }
