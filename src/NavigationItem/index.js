@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -13,5 +14,12 @@ function NavigationItem(props) {
     </li>
   );
 };
+
+NavigationItem.propTypes = {
+  path: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  tooltip: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+}
 
 export default NavigationItem;

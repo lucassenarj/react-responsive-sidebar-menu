@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./style.css";
 
 function NavigationProfile(props) {
@@ -17,5 +18,12 @@ function NavigationProfile(props) {
     </li>
   );
 };
+
+NavigationProfile.propTypes = {
+  name: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  status: PropTypes.string.isRequired,
+  onLogout: PropTypes.func.isRequired,
+}
 
 export default NavigationProfile;

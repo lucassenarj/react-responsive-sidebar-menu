@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import NavigationItem from "./NavigationItem";
 import NavigationProfile from "./NavigationProfile";
 import "./style.css";
 
-export default class extends Component {
+class ResponsiveSidebar extends Component {
   state = {
     open: false,
   };
@@ -37,3 +38,28 @@ export default class extends Component {
     );
   }
 }
+
+ResponsiveSidebar.propTypes = {
+  menuItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      path: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+      tooltip: PropTypes.string.isRequired,
+      icon: PropTypes.string.isRequired,
+    }).isRequired,
+    PropTypes.instanceOf(NavigationItem),
+  ).isRequired,
+  options: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    icon: PropTypes.string,
+    logo: PropTypes.string,
+  }).isRequired,
+  user: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    status: PropTypes.string.isRequired,
+    onLogout: PropTypes.func.isRequired,
+  }).isRequired,
+};
+
+export default ResponsiveSidebar;
