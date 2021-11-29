@@ -107,5 +107,5 @@ MIT Licensed. Copyright (c) Lucas Sena 2021.
 [npm-badge]: https://raster.shields.io/npm/v/react-responsive-sidebar-menu.png?style=flat-square
 [npm]: https://www.npmjs.com/package/react-responsive-sidebar-menu
 
-[coveralls-badge]: https://img.shields.io/coveralls/lucassenarj/react-responsive-sidebar-menu/master.png?style=flat-square
+[coveralls-badge]: https://coveralls.io/repos/github/lucassenarj/react-responsive-sidebar-menu/badge.svg?branch=master
 [coveralls]: https://coveralls.io/github/lucassenarj/react-responsive-sidebar-menu
