@@ -101,11 +101,11 @@ export default class App extends Component {
 
 MIT Licensed. Copyright (c) Lucas Sena 2021.
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
+[build-badge]: https://img.shields.io/travis/lucassenarj/react-responsive-sidebar-menu/master.png?style=flat-square
 [build]: https://app.travis-ci.com/github/lucassenarj/react-responsive-sidebar-menu
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
+[npm-badge]: https://raster.shields.io/npm/v/react-responsive-sidebar-menu.png?style=flat-square
 [npm]: https://www.npmjs.com/package/react-responsive-sidebar-menu
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
+[coveralls-badge]: https://img.shields.io/coveralls/lucassenarj/react-responsive-sidebar-menu/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/lucassenarj/react-responsive-sidebar-menu
